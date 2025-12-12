@@ -1,0 +1,31 @@
+!_TAG_FILE_ENCODING	utf-8	//
+friendly-snippets-add-snippets-from-a-framework-to-a-filetype	friendly-snippets.md	/## Add snippets from a framework to a filetype.
+friendly-snippets-credits	friendly-snippets.md	/## Credits
+friendly-snippets-excluding-snippets	friendly-snippets.md	/## Excluding snippets
+friendly-snippets-friendly-snippets	friendly-snippets.md	/# Friendly Snippets
+friendly-snippets-html	friendly-snippets.md	/### HTML
+friendly-snippets-install	friendly-snippets.md	/## Install
+friendly-snippets-js	friendly-snippets.md	/### JS
+friendly-snippets-showcase	friendly-snippets.md	/## Showcase
+friendly-snippets-thanks-to-all-contributors	friendly-snippets.md	/## Thanks to all contributors
+friendly-snippets-todo	friendly-snippets.md	/## TODO
+friendly-snippets-usage	friendly-snippets.md	/## Usage
+friendly-snippets-with-coc-nvim	friendly-snippets.md	/### With coc.nvim
+friendly-snippets-with-lazy-nvim	friendly-snippets.md	/### With Lazy.nvim
+friendly-snippets-with-packer	friendly-snippets.md	/### With Packer
+friendly-snippets-with-vim-plug	friendly-snippets.md	/### With vim-plug
+telescope-fzf-native.nvim-benchmark	telescope-fzf-native.nvim.md	/## Benchmark
+telescope-fzf-native.nvim-c-interface	telescope-fzf-native.nvim.md	/### C Interface
+telescope-fzf-native.nvim-cmake-windows-linux-macos	telescope-fzf-native.nvim.md	/### CMake (Windows, Linux, MacOS)
+telescope-fzf-native.nvim-credit	telescope-fzf-native.nvim.md	/## Credit
+telescope-fzf-native.nvim-developer-interface	telescope-fzf-native.nvim.md	/## Developer Interface
+telescope-fzf-native.nvim-disclaimer	telescope-fzf-native.nvim.md	/## Disclaimer
+telescope-fzf-native.nvim-installation	telescope-fzf-native.nvim.md	/## Installation
+telescope-fzf-native.nvim-lazy-nvim	telescope-fzf-native.nvim.md	/#### lazy.nvim
+telescope-fzf-native.nvim-lua-interface	telescope-fzf-native.nvim.md	/### Lua Interface
+telescope-fzf-native.nvim-make-linux-macos-windows-with-mingw	telescope-fzf-native.nvim.md	/### Make (Linux, MacOS, Windows with MinGW)
+telescope-fzf-native.nvim-packer-nvim	telescope-fzf-native.nvim.md	/#### packer.nvim
+telescope-fzf-native.nvim-telescope-fzf-native-nvim	telescope-fzf-native.nvim.md	/# telescope-fzf-native.nvim
+telescope-fzf-native.nvim-telescope-setup-and-configuration	telescope-fzf-native.nvim.md	/## Telescope Setup and Configuration
+telescope-fzf-native.nvim-todo	telescope-fzf-native.nvim.md	/### TODO
+telescope-fzf-native.nvim-vim-plug	telescope-fzf-native.nvim.md	/#### vim-plug

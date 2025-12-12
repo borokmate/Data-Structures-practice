@@ -1,0 +1,28 @@
+[INFO  12/12/2025 8:34:43 AM] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[INFO  12/12/2025 8:34:43 AM] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=omnisharp) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[INFO  12/12/2025 8:34:43 AM] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=clangd) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[INFO  12/12/2025 8:34:58 AM] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:86: Installation succeeded for Package(name=lua-language-server)
+[INFO  12/12/2025 8:35:01 AM] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:86: Installation succeeded for Package(name=clangd)
+[INFO  12/12/2025 8:35:02 AM] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:86: Installation succeeded for Package(name=omnisharp)
+[WARN  12/12/2025 8:47:10 AM] ...data/lazy/mason.nvim/lua/mason-registry/sources/init.lua:148: Ignoring duplicate registry entry "github:mason-org/mason-registry" (duplicate of "github:mason-org/mason-registry")
+[WARN  12/12/2025 8:47:23 AM] ...data/lazy/mason.nvim/lua/mason-registry/sources/init.lua:148: Ignoring duplicate registry entry "github:mason-org/mason-registry" (duplicate of "github:mason-org/mason-registry")
+[WARN  12/12/2025 8:49:18 AM] ...data/lazy/mason.nvim/lua/mason-registry/sources/init.lua:148: Ignoring duplicate registry entry "github:mason-org/mason-registry" (duplicate of "github:mason-org/mason-registry")
+[WARN  12/12/2025 8:50:18 AM] ...data/lazy/mason.nvim/lua/mason-registry/sources/init.lua:148: Ignoring duplicate registry entry "github:mason-org/mason-registry" (duplicate of "github:mason-org/mason-registry")
+[WARN  12/12/2025 8:52:06 AM] ...data/lazy/mason.nvim/lua/mason-registry/sources/init.lua:148: Ignoring duplicate registry entry "github:mason-org/mason-registry" (duplicate of "github:mason-org/mason-registry")
+[WARN  12/12/2025 8:52:27 AM] ...data/lazy/mason.nvim/lua/mason-registry/sources/init.lua:148: Ignoring duplicate registry entry "github:mason-org/mason-registry" (duplicate of "github:mason-org/mason-registry")
+[WARN  12/12/2025 8:53:25 AM] ...data/lazy/mason.nvim/lua/mason-registry/sources/init.lua:148: Ignoring duplicate registry entry "github:mason-org/mason-registry" (duplicate of "github:mason-org/mason-registry")
+[WARN  12/12/2025 8:54:37 AM] ...data/lazy/mason.nvim/lua/mason-registry/sources/init.lua:148: Ignoring duplicate registry entry "github:mason-org/mason-registry" (duplicate of "github:mason-org/mason-registry")
+[WARN  12/12/2025 8:55:04 AM] ...data/lazy/mason.nvim/lua/mason-registry/sources/init.lua:148: Ignoring duplicate registry entry "github:mason-org/mason-registry" (duplicate of "github:mason-org/mason-registry")
+[WARN  12/12/2025 8:55:19 AM] ...data/lazy/mason.nvim/lua/mason-registry/sources/init.lua:148: Ignoring duplicate registry entry "github:mason-org/mason-registry" (duplicate of "github:mason-org/mason-registry")

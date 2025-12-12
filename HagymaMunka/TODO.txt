@@ -1,0 +1,10 @@
+Insert - DONE
+IndexOf
+LastIndexOf
+Max
+Min
+RemoveAt
+Instantiate with an array
+AddRange
+InsertRange
+RemoveRange
