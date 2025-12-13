@@ -134,6 +134,7 @@ namespace Data_Structs
 	    if (index == 0)
 	    {
 		head = current.Next;
+		Count--;
 		return;
 	    }
 
@@ -144,6 +145,7 @@ namespace Data_Structs
 		if (i == index - 1)
 		{
 		    current.Next = next.Next;
+		    Count--;
 		    return;
 		}
 
@@ -262,6 +264,7 @@ namespace Data_Structs
 		Node newNode = new Node(value);
 		newNode.Next = head;
 		head = newNode;
+		Count++;
 		return;
 	    }
 

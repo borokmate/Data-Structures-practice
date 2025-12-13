@@ -40,6 +40,7 @@
 	    Console.WriteLine(intList);
 	    Console.WriteLine(intList.Max());
 	    Console.WriteLine(intList.Min());
+	    Console.WriteLine(intList.Count);
 	}
     }
 }
