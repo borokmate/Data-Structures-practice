@@ -19,7 +19,7 @@
 	    newList.Add("kulcs");
 
 	    newList.Remove("szilva");
-	    newList.Insert(2, "kulcs");
+	    newList.Insert(4, "rulcs");
 	    
 	    Console.WriteLine(newList.Contains("szilva"));
 	    Console.WriteLine(newList[3]);

@@ -1,3 +1,5 @@
+Clear - DONE
+IsEmpty - DONE
 Add - DONE
 Remove - DONE
 Count - DONE
