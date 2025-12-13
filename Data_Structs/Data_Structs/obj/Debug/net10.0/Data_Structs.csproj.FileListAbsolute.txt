@@ -1,0 +1,15 @@
+D:\Github\ListaLearn\Data_Structs\Data_Structs\bin\Debug\net10.0\Data_Structs.exe
+D:\Github\ListaLearn\Data_Structs\Data_Structs\bin\Debug\net10.0\Data_Structs.deps.json
+D:\Github\ListaLearn\Data_Structs\Data_Structs\bin\Debug\net10.0\Data_Structs.runtimeconfig.json
+D:\Github\ListaLearn\Data_Structs\Data_Structs\bin\Debug\net10.0\Data_Structs.dll
+D:\Github\ListaLearn\Data_Structs\Data_Structs\bin\Debug\net10.0\Data_Structs.pdb
+D:\Github\ListaLearn\Data_Structs\Data_Structs\obj\Debug\net10.0\Data_Structs.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\ListaLearn\Data_Structs\Data_Structs\obj\Debug\net10.0\Data_Structs.AssemblyInfoInputs.cache
+D:\Github\ListaLearn\Data_Structs\Data_Structs\obj\Debug\net10.0\Data_Structs.AssemblyInfo.cs
+D:\Github\ListaLearn\Data_Structs\Data_Structs\obj\Debug\net10.0\Data_Structs.csproj.CoreCompileInputs.cache
+D:\Github\ListaLearn\Data_Structs\Data_Structs\obj\Debug\net10.0\Data_Structs.sourcelink.json
+D:\Github\ListaLearn\Data_Structs\Data_Structs\obj\Debug\net10.0\Data_Structs.dll
+D:\Github\ListaLearn\Data_Structs\Data_Structs\obj\Debug\net10.0\refint\Data_Structs.dll
+D:\Github\ListaLearn\Data_Structs\Data_Structs\obj\Debug\net10.0\Data_Structs.pdb
+D:\Github\ListaLearn\Data_Structs\Data_Structs\obj\Debug\net10.0\Data_Structs.genruntimeconfig.cache
+D:\Github\ListaLearn\Data_Structs\Data_Structs\obj\Debug\net10.0\ref\Data_Structs.dll
