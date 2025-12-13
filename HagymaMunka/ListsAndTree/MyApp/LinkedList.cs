@@ -1,6 +1,8 @@
+using System.Collections;
+
 namespace MyApp
 {
-    public class LinkedList<T> where T : IEquatable<T>
+    public class LinkedList<T> : IEnumerable<T> where T : IEquatable<T>, IComparable<T>
     {
 	private class Node
 	{
@@ -15,7 +17,14 @@ namespace MyApp
 	}
 
 	private Node? head;
-	public int Count { private set; get; } = 0;
+	public int Count { get; private set; } = 0;
+
+	public LinkedList(T value)
+	{
+	    head = new Node(value);
+	}
+
+	public LinkedList() { }
 
 	public void Add(T value)
 	{
@@ -34,6 +43,24 @@ namespace MyApp
 	    current.Next = new Node(value);
 	    Count++;
 	}
+
+	public void AddRange(T[] newRange)
+	{
+	    foreach (T newValue in newRange)
+		Add(newValue);
+	}
+
+	public IEnumerator<T> GetEnumerator()
+	{
+	    Node? current = head;
+	    while (current != null)
+	    {
+		yield return current.Value;
+		current = current.Next;
+	    }
+	}
+
+	IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
 
 	public void Remove(T value)
 	{
@@ -62,6 +89,42 @@ namespace MyApp
 
 		current = current.Next;
 	    }
+	}
+
+	public void RemoveAt(int index)
+	{
+	    if (head == null)
+		return;
+
+	    int i = 0;
+	    Node current = head;
+
+	    if (index == 0)
+	    {
+		head = current.Next;
+		return;
+	    }
+
+	    while (current.Next != null)
+	    {
+		Node next = current.Next;
+
+		if (i == index - 1)
+		{
+		    current.Next = next.Next;
+		    return;
+		}
+
+		i++;
+		current = next;
+	    }
+	    throw new IndexOutOfRangeException();
+	}
+
+	public void RemoveRange(int index, int count)
+	{
+	    for (int i = 0; i < count; i++)
+		RemoveAt(index);
 	}
 
 	public bool Contains(T value)
@@ -167,6 +230,12 @@ namespace MyApp
 	    throw new IndexOutOfRangeException();
 	}
 
+	public void InsertRange(int index, T[] newRange)
+	{
+	    for (int i = newRange.Length - 1; i >= 0; i--)
+		Insert(index, newRange[i]);
+	}
+
 	public int IndexOf(T value)
 	{
 	    int index = 0;
@@ -183,6 +252,7 @@ namespace MyApp
 	    
 	    return -1;
 	}
+
 	public int LastIndexOf(T value)
 	{
 	    int index = -1;
@@ -197,6 +267,49 @@ namespace MyApp
 		i++;
 	    }
 	    return index;
+	}
+
+	public bool IsEmpty()
+	{
+	    return head == null;
+	}
+
+	public T Max()
+	{
+	    if (head == null)
+		throw new InvalidOperationException("The list is empty");
+
+	    T max = head.Value;
+	    Node? current = head.Next;
+
+	    while (current != null)
+	    {
+		if (current.Value.CompareTo(max) > 0)
+		    max = current.Value;
+
+		current = current.Next;
+	    }
+
+	    return max;
+	}
+
+	public T Min()
+	{
+	    if (head == null)
+		throw new InvalidOperationException("The list is empty");
+
+	    T min = head.Value;
+	    Node? current = head.Next;
+
+	    while (current != null)
+	    {
+		if (current.Value.CompareTo(min) < 0)
+		    min = current.Value;
+
+		current = current.Next;
+	    }
+
+	    return min;
 	}
     }
 }

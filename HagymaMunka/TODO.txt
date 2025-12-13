@@ -1,10 +1,15 @@
+Add - DONE
+Remove - DONE
+Count - DONE
+Indexing - DONE
 Insert - DONE
-IndexOf
-LastIndexOf
-Max
-Min
-RemoveAt
-Instantiate with an array
-AddRange
-InsertRange
-RemoveRange
+IndexOf - DONE
+LastIndexOf - DONE
+Max - DONE
+Min - DONE
+RemoveAt - DONE
+Instantiate with an array - DONE
+AddRange - DONE
+RemoveRange - DONE
+InsertRange - DONE
+ToString - DONE
