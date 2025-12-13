@@ -195,22 +195,22 @@ namespace Data_Structs
 	/// <summary>
 	/// Prints the list's elements out with commas inbetween 
 	/// </summary>
-        public override string ToString()
-        {
-	    if (head == null)
-		return "";
+	public override string ToString()
+	{
+	if (head == null)
+	return "";
 
-            Node current = head;
-	    
-	    string output = "" + current.Value + (current.Next == null ? "" : ", ");
+		Node current = head;
+	
+	string output = "" + current.Value + (current.Next == null ? "" : ", ");
 
-	    while (current.Next != null)
-	    {
-		current = current.Next;
-		output = output + current.Value + (current.Next == null ? "" : ", ");
-	    } 
-	    return output;
-        }
+	while (current.Next != null)
+	{
+	current = current.Next;
+	output = output + current.Value + (current.Next == null ? "" : ", ");
+	} 
+	return output;
+	}
 
 	// Just casual indexing
 	public T this[int index]
