@@ -5,6 +5,11 @@
 	static void Main(string[] args)
 	{
 	    Console.WriteLine("Hello, World!");
+	    TestLinkedList();
+	}
+
+	private static void TestLinkedList()
+	{
 	    LinkedList<string> newList = new LinkedList<string>();
 
 	    newList.Add("apple");
@@ -35,8 +40,6 @@
 	    Console.WriteLine(intList);
 	    Console.WriteLine(intList.Max());
 	    Console.WriteLine(intList.Min());
-	    Console.WriteLine(new int[] {2, 3});
-
 	}
     }
 }

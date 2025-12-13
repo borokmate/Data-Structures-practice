@@ -86,7 +86,6 @@ namespace Data_Structs
 		    Count--;
 		    return;
 		}
-
 		current = current.Next;
 	    }
 	}
@@ -144,7 +143,6 @@ namespace Data_Structs
 		if (current.Value.Equals(value))
 		    return true;
 	    }
-	    
 	    return false;
 	}
 
@@ -249,7 +247,6 @@ namespace Data_Structs
 		current = current.Next;
 		index++;
 	    }
-	    
 	    return -1;
 	}
 
@@ -286,10 +283,8 @@ namespace Data_Structs
 	    {
 		if (current.Value.CompareTo(max) > 0)
 		    max = current.Value;
-
 		current = current.Next;
 	    }
-
 	    return max;
 	}
 
@@ -305,10 +300,8 @@ namespace Data_Structs
 	    {
 		if (current.Value.CompareTo(min) < 0)
 		    min = current.Value;
-
 		current = current.Next;
 	    }
-
 	    return min;
 	}
     }
