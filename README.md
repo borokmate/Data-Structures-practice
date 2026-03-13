@@ -29,6 +29,7 @@ Sorry for the horrible little README I have a lot of projects to work on it was 
 * RemoveRange - Removes a count of elements from a given index
 * InsertRange - Inserts a range of elements at a given index
 * ToString - When printed out it lists the elements like in python: 3, 6, 1
+* Contains - Returns true if the given element is in the list
 
 
 
